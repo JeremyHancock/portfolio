@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+.img-thumbnail {
+    transition: width .7s;
+}
+.img-thumbnail:hover {
+    width: 85%;
+}
+h2 {
+    cursor: default; 
+}
+.header {
+    background-color: rgba(0, 255, 255, 0.493);
+    width: 100%;
+}
+.img-thumbnail{
+    width: 80%;
+    margin: 15px;
+}
+.lg-icon {
+    padding-top: 6px;
+    font-size: 36px;  
+}
+.row.no-pad.no-margin> [class*='col-'] {
+    padding-right:0;
+    margin-right: 0;
+    margin-left: 0;
+ }
+.navImage {
+    position: relative;
+    width: 100%;
+}
+.nameTag {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    font-size: 24px;
+    font-family: Georgia, serif;
+    text-align: center;
+    bottom: 0;
+    background-color: rgba(0, 255, 255, 0.493);
+    cursor: default;
+}
+
+.sidenav {
+    padding: 0;
+    /* height: 100%; */
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(19, 19, 19);
+    overflow-x: hidden;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: rgb(124, 124, 124);
+    display: block;
+}
+.sidenav a:hover {
+    color: rgb(241, 241, 241);
+}
+.main {
+    background-color: rgba(116, 116, 116, 0.815);
+    width: 100%;
+    padding-right: 10px;
+    /* z-index: -1; */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav a {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
