@@ -1,18 +1,47 @@
 * {
     margin: 0;
 }
+.no-pad {
+    padding: 0;
+}
+.fa {
+    position: relative;
+    bottom: 0;
+}
+.content {
+    padding: 20px 80px;
+    color: rgba(255, 255, 255, 0.747);
+}
+.contentB {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    padding: 20px 80px;
+    background: rgba(78, 78, 78, 0.411);
+    color: white;
+}
+.navImageBox {
+    position: relative;
+    width: 100%;
+}
+.top-margin {
+    margin-top: 50px;
+}
 .img-thumbnail {
     transition: width .7s;
 }
 .img-thumbnail:hover {
     width: 85%;
 }
-h2 {
+h2, .nameTag {
     cursor: default; 
 }
 .header {
+    padding-left: 20px;
     background-color: rgba(0, 255, 255, 0.493);
+    position: fixed;
     width: 100%;
+    top: 0;
+    z-index: 1;
 }
 .img-thumbnail{
     width: 80%;
@@ -22,42 +51,34 @@ h2 {
     padding-top: 6px;
     font-size: 36px;  
 }
-.row.no-pad.no-margin> [class*='col-'] {
-    padding-right:0;
-    margin-right: 0;
-    margin-left: 0;
- }
 .navImage {
-    position: relative;
     width: 100%;
 }
 .nameTag {
     margin: 0;
-    position: absolute;
     width: 100%;
     font-size: 24px;
     font-family: Georgia, serif;
     text-align: center;
+    position: absolute;
     bottom: 0;
     background-color: rgba(0, 255, 255, 0.493);
-    cursor: default;
 }
-
 .sidenav {
-    padding: 0;
-    /* height: 100%; */
+    padding: 10;
     width: 100%;
+    height: 100%;
+    z-index: 2;
     position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
     background-color: rgb(19, 19, 19);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 6px 6px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-family: Tahoma, Geneva, sans-serif;
     color: rgb(124, 124, 124);
     display: block;
@@ -66,13 +87,13 @@ h2 {
     color: rgb(241, 241, 241);
 }
 .main {
-    background-color: rgba(116, 116, 116, 0.815);
+    background-color: rgba(63, 63, 63, 0.815);
+    height: 100%;
     width: 100%;
     padding-right: 10px;
-    /* z-index: -1; */
+    margin-left: 25%;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidenav a {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
