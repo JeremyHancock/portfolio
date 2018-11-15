@@ -29,6 +29,9 @@
 .top-margin {
     margin-top: 50px;
 }
+.bottom-margin {
+    margin-bottom: 50px;
+}
 .img-thumbnail {
     transition: width .7s;
 }
@@ -100,4 +103,13 @@ h2, .nameTag {
 @media screen and (max-height: 450px) {
     .sidenav a {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+    color: gray;
 }

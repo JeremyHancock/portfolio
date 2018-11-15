@@ -34,8 +34,25 @@
                 <h2 class="col-sm-8 no-pad"> C o n t a c t </h2>
                 <div class="col-sm-4 no-pad far fa-envelope lg-icon"></div>
             </div>
-            <div class="row no-pad">
-
+            <div class="row top-margin">
+                <div class="top-margin col-sm-11 bottom-margin">
+                    <form action="https://formspree.io/jeremyhancock32@gmail.com" method="POST">
+                        <div class="form-group">
+                            <label for="name"> Your name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your e-mail</label>
+                            <input type="text" class="form-control" id="email" name="replyto" placeholder="john@doe.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Write a note</label>
+                            <textarea class="form-control" id="subject" name="subject" placeholder="Write something.."
+                                style="height:200px"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" value="send">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
