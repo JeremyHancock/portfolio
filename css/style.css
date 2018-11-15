@@ -1,6 +1,9 @@
 * {
     margin: 0;
 }
+.indent {
+    margin-left: 20px;
+}
 .no-pad {
     padding: 0;
 }
