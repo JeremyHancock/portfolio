@@ -1,4 +1,5 @@
 This is my professional site and access to my current portfolio. Please click through and take a look at everything in my portfolio!
+https://jeremyhancock.github.io/portfolio/
 
 Used: HTML, CSS, Bootstrap, FontAwesome, and little bit of JavaScript
 
