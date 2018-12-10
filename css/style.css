@@ -21,13 +21,13 @@ body {
   padding: 0;
 }
 .content {
-  padding: 20px 80px;
+  padding: 5% 10%;
   color: rgba(255, 255, 255, 0.747);
 }
 .contentB {
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 18px;
-  padding: 20px 80px;
+  padding: 5% 10%;
   background: rgba(78, 78, 78, 0.411);
   color: white;
 }
