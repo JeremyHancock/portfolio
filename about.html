@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    <div class="row no-pad no-margin">
+    <div class="row no-pad no-margin" id="wrapper">
         <!-- Side navigation -->
-        <div class="sidenav col-3 no-pad">
+        <div class="sidenav col-3 no-pad" id="sidebar-wrapper">
             <div class="navImageBox">
                 <img class="navImage" src="images/photo.jpg">
                 <div class="nameTag">Jeremy Hancock</div>
@@ -29,11 +29,13 @@
         </div>
 
         <!-- Page content -->
-        <div class="col-9 main">
-            <div class="row header">
-                <h2 class="col-8 no-pad"> A b o u t </h2>
-                <div class="col-4 no-pad fas fa-user lg-icon"></div>
-            </div>
+        <div class="row header container-fluid">
+            <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle"><i class="fas fa-bars"></i></a>
+            <h2>A b o u t
+                <div class="fas fa-user lg-icon"></div>
+            </h2>
+        </div>
+        <div class="col-9 page-content-wrapper">
             <div class="row top-margin">
                 <div class="row content">
                     <div class="col-12 col-lg-5">
@@ -70,16 +72,18 @@
                                 </a>
                             </div>
                     </div>
-                </div>
-                <div class="row content">
-                    <h5>Education</h5>
-                <div class="row content">
-                    <li>University of Richmond, Richmond, VA –​​ Full Stack Web Development Bootcamp</li>
-                    <li>Utah State University, Logan, UT - ​​School of music, Choral education</li>
+                    <span></span>
+                    <div class="col-12">
+                        <h5>Education</h5>
+                        <li>University of Richmond, Richmond, VA –​​ Full Stack Web Development Bootcamp</li>
+                        <li>Utah State University, Logan, UT - ​​School of music, Choral education</li>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

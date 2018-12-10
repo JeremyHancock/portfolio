@@ -1,9 +1,9 @@
 This is my professional site and access to my current portfolio. Please click through and take a look at everything in my portfolio!
 https://jeremyhancock.github.io/portfolio/
 
-Used: HTML, CSS, Bootstrap, FontAwesome, and little bit of JavaScript
+Used: HTML, CSS, Bootstrap, FontAwesome, and a little bit of JavaScript
 
-Still to do: Complete the resume and contact pages, move to pagination, rather than separate pages (or move the header and navigation code to another file for export to each page). Possibly, make the side navigation collapsable. Add links to GitHub on the profile page so the code for each project is easily accessible.
+Still to do: Move to pagination, rather than separate pages (or move the header and navigation code to another file for export to each page). Add links to GitHub on the profile page so the code for each project is easily accessible.
 
 ******************************************************
 Ready for hire

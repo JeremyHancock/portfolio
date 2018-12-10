@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    <div class="row no-pad no-margin">
+    <div class="row no-pad no-margin" id="wrapper">
         <!-- Side navigation -->
-        <div class="sidenav col-3 no-pad">
+        <div class="sidenav col-3 no-pad" id="sidebar-wrapper">
             <div class="navImageBox">
                 <img class="navImage" src="images/photo.jpg">
                 <div class="nameTag">Jeremy Hancock</div>
@@ -29,13 +29,15 @@
         </div>
 
         <!-- Page content -->
-        <div class="col-9 main">
-            <div class="row header">
-                <h2 class="col-8 no-pad"> P o r t f o l i o </h2>
-                <div class="col-4 fas fa-briefcase lg-icon"></div>
-            </div>
+        <div class="row header container-fluid">
+            <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle"><i class="fas fa-bars"></i></a>
+            <h2>P o r t f o l i o
+                <div class="fas fa-briefcase lg-icon"></div>
+            </h2>
+        </div>
+        <div class="col-9 page-content-wrapper">
             <div class="row top-margin">
-                <div class="col-6">
+                <div class="col-12 col-sm-6">
                     <a href="https://jeremyhancock.github.io/GroupProject1-JAMR/" target="_blank">
                         <img class="img-thumbnail" src="images/jamr.png">
                     </a>
@@ -46,8 +48,8 @@
                         <img class="img-thumbnail" src="images/trainStation.png">
                     </a>
                 </div>
-                <div class="col-6">
-                    <a href="https://moodster.herokuapp.com/" target="_blank">
+                <div class="col-12 col-sm-6">
+                        <a href="https://moodster.herokuapp.com/" target="_blank">
                         <img class="img-thumbnail" src="images/moodster.png">
                     </a>
                     <a class=imageLinks href="https://jeremyhancock.github.io/hangman-game/" target="_blank">
@@ -59,8 +61,8 @@
                 </div>
             </div>
             <div class="row top-margin">
-                <div class="col-6">
-                    <a href="https://github.com/JeremyHancock/friendFinder" target="_blank">
+                    <div class="col-12 col-sm-6">
+                            <a href="https://github.com/JeremyHancock/friendFinder" target="_blank">
                         <img class="img-thumbnail" src="images/friendFinder.png">
                     </a>
                     <a href="https://jeremyhancock.github.io/giftastic/" target="_blank">
@@ -70,21 +72,19 @@
                         <img class="img-thumbnail" src="images/officeTrivia.png">
                     </a>
                 </div>
-                <div class="col-6">
-                    <a href="https://jeremyhancock.github.io/unit-4-game/" target="_blank">
+                <div class="col-12 col-sm-6">
+                        <a href="https://jeremyhancock.github.io/unit-4-game/" target="_blank">
                         <img class="img-thumbnail" src="images/crystalGame.png">
                     </a>
                     <a class=imageLinks href="https://github.com/JeremyHancock/liri" target="_blank">
                         <img class="img-thumbnail" src="images/liri.png">
                     </a>
-
-                    <!-- <a href="https://jeremyhancock.github.io/TriviaGame/" target="_blank">
-                        <img class="img-thumbnail" src="images/officeTrivia.png">
-                    </a> -->
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
